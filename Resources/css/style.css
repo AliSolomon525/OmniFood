@@ -212,7 +212,7 @@ a:active {
 .btn-ghost:visited {
   border: 1px solid #e67e22;
   border-radius: 50px;
-  color: #fff;
+  color: #e67e22;
 }
 
 .btn:hover,
@@ -355,14 +355,15 @@ a:active {
 
 blockquote {
   padding: 2%;
+  font-size: 100%;
   font-style: italic;
-  line-height: 145%;
+  line-height: 130%;
   position: relative;
 }
 
 blockquote:before {
   content: "\201C";
-  font-size: 400%;
+  font-size: 300%;
   font-weight: 45%;
   display: block;
   position: absolute;
@@ -370,7 +371,7 @@ blockquote:before {
 }
 
 cite {
-  font-size: 90%;
+  font-size: 80%;
   margin-top: 25px;
   display: block;
 }
@@ -381,4 +382,58 @@ cite img {
   margin-right: 10px;
   vertical-align: middle;
   margin-left: 10px;
+}
+
+/*--- PLANS ---*/
+
+.section-plans {
+  background-color: #f4f4f4;
+}
+
+.plan-box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: 0;
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #e67e22;
+}
+
+.plan-price span {
+  font-size: 35%;
+  font-weight: 300;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
 }
